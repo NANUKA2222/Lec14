@@ -1,0 +1,261 @@
+@media (width>768px){
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+    body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+.tablet1{
+    display: block;
+    position: relative;
+    top: -50px;
+    left: 420px;
+}
+.tablet2{
+    display: block;
+    position: relative;
+    top: -450px;
+    left: -130px;
+}
+
+.mobile1{
+    position: relative;
+    left: -65px;
+
+}
+
+.mobile2 , .mobile3 {
+    display: none;
+}
+
+
+.tablet3 , .tablet4 {
+    display: block;
+    position: absolute;
+    top: 50px;
+    z-index: -4;
+}
+.tablet4{
+    position: absolute;
+    top: 150px;
+
+}
+
+header h1{
+ width: 520px;
+height: 192px;
+font-family: 'IBM Plex Sans';
+font-size: 64px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: -0.7272727489471436px;
+text-align: left;
+position: relative;
+top: -750px;
+left: -80px;
+}
+
+
+header p {
+    width: 514px;
+height: 112px;
+font-family: 'IBM Plex Sans';
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+position: relative;
+top: -750px;
+left: -80px;
+color: hsla(244, 23%, 12%, 1);
+}
+
+.main1{
+    width: 696px;
+    height: 600px;
+    background-color: hsla(242, 22%, 12%, 1);
+    border-radius: 10px;
+    position: relative;
+    top: -500px;
+    }
+
+
+.main2{
+    display: none;
+}
+.tablet5{
+    display: block;
+    margin-left: 250px;
+}
+.main3{
+width: 270.21px;
+height: 556px;
+
+}
+.main4{
+    width: 399px;
+    height: 590px;    
+    background-color: hsla(12, 94%, 65%, 1);
+    position: relative;
+    z-index: 10;
+    top: -920px;
+    left: 250px;
+    border-radius: 15px;
+    }
+    .main8:hover{
+        background-color: hsla(33, 100%, 70%, 1);
+        transition: all 1s;
+        cursor: pointer;
+     }
+    
+    
+    
+    .main7:hover{
+        background-color:hsla(177, 68%, 64%, 1);
+        transition: all 1s;
+        cursor: pointer;
+    }
+    
+
+.footer1{
+
+    position: relative;
+    top: -600px;
+    left: -10px;
+}
+
+.footer2{
+    display: flex;
+    gap: 190px;
+    margin-top: -560px;
+    margin-left: -10px;
+    overflow: hidden;
+}
+
+
+}
+
+
+@media (width>1440px){
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+    body{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+    .tablet2{
+        margin-left: -88px;
+    }
+
+    .mobile1{
+        margin-top: 20px;
+        margin-left: 1px;
+    }
+    
+.tablet1{
+
+    margin-top: -14px;
+    margin-left: 580px;
+}
+
+header h1{
+width: 1015px;
+height: 176px;
+font-family: IBM Plex Sans;
+font-size: 88px;
+font-weight: 700;
+line-height: 88px;
+letter-spacing: -1px;
+text-align: left;
+
+}
+
+header p {
+
+
+
+    width: 825px;
+height: 102px;
+font-family: 'IBM Plex Sans';
+font-size: 20px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0px;
+text-align: left;
+
+}
+.tablet3 , .tablet4  {
+    margin-left: 500px;
+}
+
+
+
+.main1{
+    width: 1110px;
+height: 600px;
+
+
+}
+
+.tablet5{
+    margin-left: 290px;
+}
+.main4{
+    margin-left: 230px;
+    margin-top: -90px;
+
+}
+
+.main3{
+
+    margin-top: -60px;
+}
+
+.footer2{
+    margin-left: 490px;
+}
+
+.footer1{
+    position: relative;
+    top: -490px;
+}
+
+
+.footer4{
+    margin-top: -10px;
+}
+
+
+
+ .main8:hover{
+    background-color: hsla(33, 100%, 70%, 1);
+    transition: all 1s;
+    cursor: pointer;
+ }
+
+
+
+.main7:hover{
+    background-color:hsla(177, 68%, 64%, 1);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
